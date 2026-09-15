@@ -1,0 +1,43 @@
+html,
+body {
+  background-color: #1f3d2b;
+  height: 100%;
+  margin: 0;
+}
+
+.main {
+  height: 90%;
+}
+
+.about-main {
+  text-align: center;
+  color: #d4af37;
+}
+
+.about-main h2 {
+  padding-top: 50px;
+}
+
+.about-main p {
+  padding-top: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.nav-bar {
+  height: 10%;
+  border-top: 1px solid #d4af374d;
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item a {
+  color: #d4af37;
+  text-decoration: none;
+}
