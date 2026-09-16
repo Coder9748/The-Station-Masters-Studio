@@ -11,14 +11,18 @@ body {
   color: #d4af37;
 }
 
-.about-main h2 {
-  padding-top: 50px;
-}
-
 .about-main p {
   padding-top: 10px;
   margin-left: 10%;
   margin-right: 10%;
+}
+
+.about-main h2 {
+  margin-top: 16px;
+}
+
+.about-main svg {
+  padding-top: 50px;
 }
 
 .nav-bar {
