@@ -25,9 +25,15 @@ body {
   padding-top: 50px;
 }
 
-.nav-bar {
-  height: 10%;
+.svg-bar {
+  height: 5%;
   border-top: 1px solid #d4af374d;
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar {
+  height: 1%;
   display: flex;
   align-items: center;
 }
@@ -58,4 +64,8 @@ body {
   font-weight: bold;
   margin-top: 0px;
   margin-bottom: 26px;
+}
+
+.bi {
+  color: #d4af37;
 }
