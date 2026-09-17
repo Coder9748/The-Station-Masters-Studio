@@ -69,3 +69,46 @@ body {
 .bi {
   color: #d4af37;
 }
+
+.gallery-main {
+  overflow-y: auto;
+  height: 100px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  padding: 16px;
+}
+
+.gallery img {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.lightbox {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 999;
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox.active {
+  display: flex;
+}
+
+.lightbox img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 8px;
+  border: 2px solid #1f3d2b;
+}
