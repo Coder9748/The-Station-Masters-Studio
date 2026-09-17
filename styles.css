@@ -18,6 +18,8 @@ body {
 }
 
 .about-main h2 {
+  font-family: "Playfair", serif;
+  font-size: 30px;
   margin-top: 16px;
 }
 
@@ -64,6 +66,7 @@ body {
   font-weight: bold;
   margin-top: 0px;
   margin-bottom: 26px;
+  color: #d4af37;
 }
 
 .bi {
@@ -73,6 +76,11 @@ body {
 .gallery-main {
   overflow-y: auto;
   height: 100px;
+}
+
+.gallery-main h2 {
+  font-family: "Playfair", serif;
+  font-size: 40px;
 }
 
 .gallery {
